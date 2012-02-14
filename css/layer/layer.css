@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import url("../../css/frame/reset.css");
+@import url("../../css/frame/public.css");
+
+/* 浮层 */
+.pop{width:574px;position: absolute;}
+.pop .logged{padding:10px 0;}
+.pop_top{height:14px; background: url(../../images/layer/bg_pop_top.jpg) no-repeat 0 0;}
+.pop_conn{border-left:2px solid #008aff; border-right:2px solid #008aff; padding:0 12px 10px;}
+.pop_conn .close{text-align:right;}
+.pop_conn p{ color:#333;}
+.pop_conn .txt{text-align:center; font-size:18px; padding-top:38px;}
+.pop_conn .btn{text-align:center; padding:35px 0;}
+.pop_conn .prompt{height:38px; background: url(../../images/layer/ico_alert.gif) no-repeat 50px 0px; padding:0px 0 15px 95px;font-size:18px; line-height:38px;}
+.pop_conn .pop_login_l{float:left; width:245px; color:#333; font-size:14px; padding-left:50px;}
+.pop_conn .pop_login_l dt{padding-bottom:24px; color:#333;}
+.pop_conn .pop_login_l p{background: url(../../images/layer/ico_qq_tb.gif) no-repeat 0 0; padding-left:40px; height:30px; line-height:30px; margin-bottom:19px;}
+.pop_conn .pop_login_l p.tb{background-position:0 0}
+.pop_conn .pop_login_l p.weibo{background-position:0 -50px}
+.pop_conn .pop_login_l p.qq{background-position:0 -100px}
+.pop_conn .pop_login_l .app_list{width:290px;height:170px;}
+.pop_conn .pop_login_l .app_list li{float:left; height:34px; margin-bottom:15px; line-height:34px; padding-left:50px; width:94px; background: url(../../images/common/ico_q.jpg) no-repeat 0 0;}
+.pop_conn .pop_login_l .app_list li.weibo{background-position:0 -4px;}
+.pop_conn .pop_login_l .app_list li.msn{background-position:-144px -4px;}
+.pop_conn .pop_login_l .app_list li.twitter{background-position:0 -50px;}
+.pop_conn .pop_login_l .app_list li.taobao{background-position:-144px -50px;}
+.pop_conn .pop_login_l .app_list li.qq{background-position:0 -94px;}
+.pop_conn .pop_login_l .app_list li.douban{background-position:-144px -94px;}
+.pop_conn .pop_login_l .app_list li a,
+.pop_conn .pop_login_l .app_list li a:hover{color:#333;}
+
+.pop_conn .pop_login_r{float:right; width:180px; padding-right:30px;}
+.pop_conn .pop_login_r p{text-align:center; padding-bottom:25px; font-size:14px;}
+.pop_conn .pop_login_r p a{color:#333; padding-left:33px;}
+.pop_bottom{height:14px; background: url(../../images/layer/bg_pop_bottom.jpg) no-repeat 0 0;}

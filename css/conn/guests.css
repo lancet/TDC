@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/* 嘉宾 */
+.guests{width:1012px; _width:1022px; padding:10px 0 25px;}
+.guests .guests_left{float:left; width:726px;}
+.guests .guests_left .about_top{font-size:0;height:20px; background:url(../../images/common/bg_show_guests_top.jpg) no-repeat center 0;}
+.guests .guests_left .about_conn{padding:0 38px; background:url(../../images/common/bg_show_guests_conn.jpg) repeat-y center 0;background:url(../../images/common/bg_show_guests_conn.jpg) repeat-y 0px 0;}
+.guests .guests_left .about_bottom{font-size:0;height:22px; background:url(../../images/common/bg_show_guests_bottom.jpg) no-repeat center 0;}
+.guests .guests_left .about_conn dl{padding:0 0 20px;}
+.guests .guests_left .about_conn dd{position: relative; font-size:14px; line-height:20px; padding:10px 0 0;}
+.guests .guests_left .about_conn dt{text-align:right; background:url(../../images/common/bg_list_dot.gif) no-repeat 0 bottom; font-weight:bold;}
+.guests .guests_left .about_conn dt span{float:left; width:510px; text-align:left; font-size:16px; line-height:44px; color:#333;}
+.guests .guests_left .about_conn dt em{line-height:44px; color:#999;}
+.guests .guests_left .about_conn dd{position: relative; font-size:14px; line-height:20px; padding:10px 0 0;width: 655px;}
+.guests .guests_left .about_conn dl dd .more{position:absolute; right:0; bottom:0; _height:18px; color:#479bff;}
+
+.guests .pages{float:left; padding:10px 0 35px 35px;font-size:14px;}
+.guests .pre{line-height:29px; padding-right:10px; width: 20px;}
+.pages_ie6{_position: relative;}
+.pages_ie6 ul{_position: absolute; _top:23px;}
+.pages li a{width:28px; height:28px; line-height:28px;}
+.lecturer .pages .pre{line-height: 30px;padding-right: 10px;width: 60px; float:left;}
+.guests_left .pages .pre{line-height: 30px;padding-right: 10px;width: 60px; float:left;}
+.guests_left .pages ul{float:left;}
+
+/*嘉宾右侧*/
+.guests .guests_info{float:left;width:281px; padding:10px 0 0; font-size:14px;}
+.guests .guests_info .guests_top{font-size:0;height:5px; background:url(../../images/common/bg_guestsinfo_top.gif) no-repeat center 0;}
+.guests .guests_info .guests_conn{background:#e0eeff;}
+.guests .guests_info .guests_bottom{font-size:0;height:5px; margin-bottom:5px; background:url(../../images/common/bg_guestsinfo_bottom.gif) no-repeat center 0;}
+.guests .guests_info .info_user{height:84px; padding:14px 0 0 19px;}
+.guests .guests_info .info_user img{float:left;width:78px; height:78px; border:3px solid #fff;}
+.guests .guests_info .info_user p{padding:30px 0 0 100px; font-size:16px; font-weight:bold;color:#333;}
+.guests .guests_info .info_txt{color:#333; line-height:20px; padding:10px 10px 20px;}
+.guests .guests_info .guestslist_top{font-size:0;height:3px; background:url(../../images/common/bg_guestsinfolist_top.gif) no-repeat center 0;}
+.guests .guests_info .guestslist_conn{width:271px; margin:0 auto; background:#cbe1ff; padding-bottom:10px;}
+.guests .guests_info .guestslist_conn h6{padding-top:10px;}
+.guests .guests_info h6{color:#3399ff; font-size:14px; padding:20px 0 10px 10px;}
+.guests .guests_info .guestslist_conn li{width:249px; background: url(../../images/common/ico_dot.gif) no-repeat scroll 10px 8px transparent;float: left;padding-left: 22px;line-height:20px; color:#333; font-size:14px; height:20px; overflow:hidden;}
+.guests .guests_info .guestslist_conn li a,
+.guests .guests_info .guests_conn .weiboadd a{color:#666}
+.guests .guests_info .guestslist_bottom{font-size:0;height:3px; background:url(../../images/common/bg_guestsinfolist_bottom.gif) no-repeat center 0;}
+.guests .guests_info .guests_conn .weiboadd{ padding:0 0 15px 12px;color:#333;}
+
+/*嘉宾文章*/
+.guests .guests_left .articlelist{width:648px;}
+.guests .guests_left .articlelist dt{background:none;}
+.guests .guests_left .articlelist dt span{font-size:18px}
+.articlelist .article{}
+.articlelist .article h5{font-size:16px; font-weight:normal; color:#333;}
+.articlelist .article .article_txt{font-size:14px; color:#666; padding:15px 0 20px; line-height:20px;width:655px; }
+.articlelist .article_share{text-align:right;}
+.enter_comment{padding: 0 0 20px;}
+.enter_comment .tit{font-size:14px; line-height:30px}
+.enter_comment .textareabox textarea{width:637px; height:102px; padding:5px; border:1px solid #ccc; resize:none;}
+.enter_comment .enter_btn{text-align:right; padding:10px 0 0;}
+.comment .commentlist{padding:0 0 17px;}
+.comment .commentlist .userface{width:71px; float:left;}
+.comment .commentlist .userface .user{width:67px; height:67px; border:2px solid #3399ff; margin-bottom: 10px}
+.comment .commentlist .comment_txt{float:left;border:1px solid #ccc; width:552px;position: relative; margin-left:25px;}
+.comment .commentlist .comment_txt .arrow{position: absolute;background:url(../../images/common/bg_left_arrow.gif) no-repeat 0 0; width:19px; height:16px; left:-19px; top:12px;}
+.comment .commentlist .comment_txt dl{padding:0 15px 30px;}
+.comment .commentlist .comment_txt dt{text-align:right}
+.comment .commentlist .comment_txt dt span{color:#479bff;}
+.comment .commentlist .comment_txt dt b{float:left;}
+.comment .commentlist .comment_txt dt em{font-size:14px;}
+.comment .commentlist .comment_txt dt .tit{width:300px;}
+.comment .commentlist .comment_txt dt .time{padding-left:10px; color:#999; width:auto;font-weight:normal; font-size:14px;}
+.guests_left .articlelist .article{width:655px; }
+.article .articlelist .article .article_txt{width:930px; }
+.guests_left .comment .commentlist .comment_txt {width:550px;}
+.guests_left .comment .commentlist .comment_txt dd{width:520px}
+
+/*具体文章*/
+.guests .article {width:1050px;}
+.guests .article .about_conn{background:none;}
+.guests .article .about_conn .signed{font-size:16px; padding:20px 0 10px;}
+.guests .article .articlelist dt{background:#479bff; padding:0 18px; }
+.guests .article .about_conn dt span{color:#fff; font-weight:normal;}
+.guests .article .about_conn dt b{font-size:14px; color:#ccc; padding-left:10px;font-weight:normal;}
+.guests .article .about_conn dt em a{color:#e4e4e4; margin-left:10px; display:inline; font-size:14px;}
+.guests .article .about_conn dt em a.del{color:#e4bd05;}
+.guests .article .about_conn .article {padding:10px 30px;width: 910px;}
+.guests .article .about_conn h5{color:#479bff;}
+.guests .guests_left .article .about_conn .article_txt{padding:10px 0 0; line-height:18px;}
+.guests .article .about_conn dl{background:url(../../images/common/bg_dot_line.gif) repeat-x 0 bottom;}
+.guests .article .about_conn .enter_comment{padding:10px 24px;}
+.guests .article .about_conn .enter_comment .textareabox textarea{width:913px;}
+.guests .article .about_conn .comment .commentlist {padding:0 25px 20px;}
+.guests .article .about_conn .comment .commentlist dl{background:none;}
+.guests .article .about_conn .comment .commentlist dt{background:none; padding:0;}
+.guests .article .about_conn .comment .commentlist .comment_txt{float: left;
+    margin-left: 23px;}
+.guests .article .about_conn .comment .commentlist .comment_txt dt b{color:#479bff}
+.guests .article .pages{float:right; padding-right:39px;}
+.guests .article_w{width: 934px;}
+.guests .article_w01{width: 960px;}
+.guests_left .comment .commentlist .article_w01{width:828px;}
+.guests_left .comment .commentlist .article_w01 dd{width:auto;}
+.guests .guests_left .articlelist_w{width:auto}
+
+/*所有讲师*/
+.lecturer{}
+.lecturer .lecturer_l{width:228px; float:left; padding-top:10px;}
+.lecturer .lecturer_l ul{height: 194px;background:url(../../images/common/bg_list_dot.gif) no-repeat 0 bottom;}
+.lecturer .lecturer_l ul li a{width:72px; height:54px; line-height:54px; text-align:center; font-size:16px; float:left; background:#d5f2ff; display:inline; margin:0 4px 8px 0;}
+.lecturer .lecturer_l .letter{background:none; padding:17px 0 0;}
+.lecturer .lecturer_l .letter li{width:54px; height:54px;line-height:54px; text-align:center; font-size:16px; float:left; background:#00aeff; display:inline; margin:0 3px 8px 0;}
+.lecturer .lecturer_l .letter li a{display:block;width:54px; height:54px; color:#fff; font-size:22px;background:#00aeff;}
+.lecturer .lecturer_l .letter li a:hover{background:#ccc; color:#333;text-decoration: none;font-size:22px;}
+
+.lecturer .lecturer_l .letter_1 li{width:72px; height:54px;line-height:54px; text-align:center; font-size:16px; float:left; background:#26baff; display:inline; margin:0 3px 8px 0;}
+.lecturer .lecturer_l .letter_1 li a{display:block;width:72px; height:54px; color:#666; font-size:22px;}
+.lecturer .lecturer_l .letter_1 li a:hover{background:#ccc; color:#333;text-decoration: none;font-size:22px;}
+
+.lecturer .lecturer_r {width:766px; float:right}
+.lecturer .lecturer_r .lecturerbox{clear:both; padding:0 0 20px;}
+.lecturer .lecturer_r .about_top{font-size:0;height:19px; background:url(../../images/common/bg_lecturer_top.jpg) no-repeat center 0;}
+.lecturer .lecturer_r {margin:0;padding:0; font-size:14px;}
+.lecturer .lecturer_r .about_conn{padding:5px 30px 5px 30px;background:url(../../images/common/bg_lecturer_conn.jpg) repeat-y center 0;}
+.lecturer .lecturer_r .about_conn .txt{line-height:20px; padding:0 0 5px;}
+.lecturer .lecturer_r  ol {list-style:none;width:640px;}
+.lecturer .lecturer_r  ol li {overflow:hidden; padding:4px 0;}
+.lecturer .lecturer_r  ol li strong {float:left; padding-right:10px; line-height: 20px;font-weight: normal;}
+.lecturer .lecturer_r  ol li p {_display:inline;overflow:auto;zoom:1;line-height: 20px;}
+.lecturer .lecturer_r .about_conn .user{height:64px; padding-bottom:15px; line-height:64px;}
+.lecturer .lecturer_r .about_conn .user img{float:left; width:64px; height:64px;}
+.lecturer .lecturer_r .about_conn .user p{ padding-left:80px; font-size:16px; color:#333;}
+.lecturer .lecturer_r .about_conn .btn{clear:both; text-align:right;}
+.lecturer .lecturer_r .about_bottom{font-size:0;height:19px; background:url(../../images/common/bg_lecturer_bottom.jpg) no-repeat center 0;}
+.lecturer .pages{text-align:right; line-height:28px; padding:25px 0 15px;}
+.lecturer .pages ul{padding-right:13px;}
+.lecturer .pages .pre{padding-right:10px;}
+.lecturer .lecturer_r .pages{padding:10px 0 40px;}
+.lecturer .pages .pre,
+.lecturer_r .pages .pre{float:right;}
+
+/*所有文章*/
+.guests .manage_tit{height:42px;}
+.guests .manage_tit .tit{float:left; padding:12px 10px 0 12px;font-size:14px; color:#333;}
+.guests .manage_tit .options{float:left; margin:10px 0 0;}
+.guests .hot_top{font-size:0;height:4px; background:url(../../images/common/bg_hot_top.gif) no-repeat center 0;}
+.guests .hot_conn{background:#333;}
+.guests .hot_bottom{font-size:0;height:4px; background:url(../../images/common/bg_hot_bottom.gif) no-repeat center 0;}
+.guests .guests_info .hot_conn .guestslist_conn{background:none;}
+.guests .guests_info .hot_conn .guestslist_conn h6{color:#fffc00; font-size:16px; padding:20px 0 20px 10px;}
+.guests .guests_info .hot_conn .guestslist_conn li{color:#fff;height: 26px;line-height: 26px;background-position:10px 11px;padding-left: 28px}
+.guests .guests_info .hot_conn .guestslist_conn li a{color:#fff;}
+
+.guests .list_top{font-size:0;height:7px; background:url(../../images/common/bg_list_top.gif) no-repeat center 0;}
+.guests .list_conn{background:#4d5459;}
+.guests .list_conn .info_txt{color:#fff;}
+.guests .list_conn .about{text-align:right;padding:15px 18px 10px; font-size:18px; color:#FFF000}
+.guests .list_bottom{font-size:0;height:7px; background:url(../../images/common/bg_list_bottom.gif) no-repeat center 0;}
+.guests .guests_info .hotlist_top{font-size:0;height:11px; background:url(../../images/common/bg_hotgary_top.gif) no-repeat center 0;}
+.guests .guests_info .hotlist_conn{width:268px; margin:0 0 0 6px; _margin:0 0 0 7px; display:inline; background:#6c7880; padding-bottom:10px; float:left;}
+.guests .guests_info .hotlist_conn ul{padding:0 10px;}
+.guests .guests_info .hotlist_conn li{background:none; color:#fff;line-height: 28px;}
+.guests .guests_info .hotlist_bottom{clear: both;font-size:0;height:11px; background:url(../../images/common/bg_hotgary_bottom.gif) no-repeat center 0;}
+.guests .guests_info .hotlist_conn h6{color:#fff000;}
+
+.guests .guests_left .about_conn .allsalon{padding:30px 5px 20px;}
+.guests .guests_left .about_conn .allsalon dt{background:url(../../images/common/bg_arrow_down.gif) no-repeat 0 bottom;text-align:left; height:32px; font-size:16px; color:#2b6893; padding-left:8px;}
+.guests .guests_left .about_conn .allsalon dt a{color:#2b6893;}
+.guests .guests_left .about_conn .allsalon dd li{line-height: 24px;color:#333;background:url(../../images/common/bg_arrow_right.gif) no-repeat 0 8px; padding-left:20px;}
+.guests .guests_left .about_conn .allsalon dd .topic{width:50px; float:left;}
+.guests .guests_left .about_conn .allsalon dd .technology{padding:0 10px;}
+

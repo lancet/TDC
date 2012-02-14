@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 关于我们 */
+.abouttdc{width:1012px; padding:10px 0 25px;}
+.abouttdc .about_tit{padding:25px 50px 0 102px; height:247px; background:url(../../images/common/bg_abouttdc.jpg) no-repeat center 0;}
+.abouttdc .about_tit p{padding: 19px 0 0 10px; font-size:14px;line-height: 32px;}
+.abouttdc .aboutlist{clear:both;}
+.abouttdc .aboutlist .about_top{height:24px; background:url(../../images/common/bg_show_top.jpg) no-repeat center 0;}
+.abouttdc .aboutlist .about_conn{background:url(../../images/common/bg_show_conn.jpg) repeat-y center 0;}
+.abouttdc .aboutlist .about_conn .member{padding:10px 0 0 102px;background:url(../../images/common/bg_01.jpg) no-repeat 26px bottom;}
+.abouttdc .aboutlist .about_conn .aboutcon img.ico{float:left;width:110px; height:112px;display:block;background:url(../../images/common/bg_ico_login.png) no-repeat 0 0; _background:url(../../images/common/bg_ico_login.gif) no-repeat 0 0;}
+.abouttdc .aboutlist .about_conn .aboutcon img.aboutico01{background-position:0 -9px;}
+.abouttdc .aboutlist .about_conn .aboutcon img.aboutico02{background-position:0 -152px;}
+.abouttdc .aboutlist .about_conn .aboutcon img.aboutico03{background-position:0 -392px;}
+.abouttdc .aboutlist .about_conn .aboutcon img.aboutico04{background-position:0 -579px;}
+.abouttdc .aboutlist .about_conn .aboutcon img.aboutico05{background-position:0 -727px;}
+.abouttdc .aboutlist .about_conn .aboutcon{padding:20px 200px 20px 10px; font-size:14px; line-height:20px;}
+.abouttdc .aboutlist .about_conn .aboutcon dl{padding:0 0 0 130px;}
+.abouttdc .aboutlist .about_conn .aboutcon dt{line-height:30px; font-weight:bold; color:#333;}
+.abouttdc .aboutlist .about_conn .aboutcon dd{color:#666}
+.abouttdc .aboutlist .about_conn .aboutcon .weibo{padding-top:10px; color:#333;}
+.abouttdc .aboutlist .about_conn .aboutcon .weibo a{color:#333;}
+.abouttdc .aboutlist .about_bottom{height:24px; background:url(../../images/common/bg_show_bottom.jpg) no-repeat center 0;}

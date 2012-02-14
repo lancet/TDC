@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* 往期沙龙 */
+.salon{padding:10px 0 0;}
+.salon .pagename{text-align:left; padding-left:15px; font-size:14px;}
+.salon .activity{padding:22px 48px 0;}
+.salon .activity .fla_pic{float:left; width:475px; height:343px; border:3px solid #479bff;position: relative;}
+.salon .activity .operate {background: url(../../images/salon/operate_bg.png) repeat 0 0;bottom: 0;left:0;height: 30px;position: absolute; width:475px;z-index: 1;}
+.salon .activity .operate .pages{padding:6px 0 0 10px; color:#fff; font-size:14px;}
+.salon .activity .operate .pages ul{padding:2px 15px 0;}
+.salon .activity .operate .pages li a{width:14px; height:14px; background:#7a7a7a; line-height:14px; border:1px solid #b1b3b3; font-size:12px;}
+.salon .activity .operate .pages li a:hover{background:#86bdff;}
+.salon .activity .operate .pages .pre{width:330px; float:left;}
+.salon .activity .activity_txt{width:420px; float:right;}
+.salon .activity .activity_txt h4{padding:22px 0 14px;background:url(../../images/common/bg_dot_line.gif) repeat-x 0 bottom; font-size:18px;}
+.salon .activity .activity_txt dl{width:408px;}
+.salon .activity .activity_txt dl dt{width:46px; float:left;line-height:36px;}
+.salon .activity .activity_txt dl dd{float:right; width:360px; line-height:36px;}
+.salon .activity .activity_txt dl dd.introduce{line-height:20px; padding:8px 0 0;}
+.salon .activity .activity_txt dl dd .add{ position: relative; float:left; padding-right:30px;}
+.salon .activity .activity_txt dl dd .add .map{position: absolute; right:0; top:-15px;}
+.salon .activity .activity_txt .share{text-align:right; padding:30px 0 0;}
+.salon .salon_guests{height:240px; width:936px; margin:0 0 0 46px; padding:50px 0 0;}
+.salon .salon_guests .idTabs{width:273px; float:left;}
+.salon .salon_guests .idTabs li a{display:block; float:left; width:253px; height:57px; font-size:14px; color:#666; text-decoration:none; line-height:57px; margin-bottom:9px; background:url(../../images/salon/tab_guests.png) no-repeat 0 -66px; display:block; padding-left:20px;}
+.salon .salon_guests .idTabs li a:hover{background-position:0 0;}
+.salon .salon_guests .idTabs li.cur a{background-position:0 0;}
+.salon .salon_guests .guests_txt{width:655px; height:243px; margin-left:280px; _margin-left:140px; margin-top:-20px;background:url(../../images/salon/salon_guests.png) no-repeat 0 0;}
+.salon .salon_guests .guests_txt .guestsbox{padding:35px 40px 0;}
+.salon .salon_guests .guests_txt .guestsbox img{width:84px; height:84px; border:2px solid #479bff; float:left;}
+.salon .salon_guests .guests_txt .guestsbox .guests_writing{padding:5px 0 0 25px; width:445px; float:left;}
+.salon .salon_guests .guests_txt .guestsbox .guests_writing p{line-height: 18px;padding: 0 0 10px;}
+.salon .salon_guests .guests_txt .guestsbox .guests_writing .mes{text-align:right; color:#00ccff;padding: 12px 0 18px;}
+.salon .salon_guests .guests_txt .guestsbox .guests_writing .down{line-height:20px; color:#333;text-align:right; padding-right:30px; background:url(../../images/salon/ico_down.jpg) no-repeat right 0;}
+.salon .salon_guests .guests_txt .guestsbox .guests_writing .down a{color:#333;}
+.salonbbs{width:922px; margin:0 auto 37px;}
+.salonbbs .salonbbs_top{font-size:0;height:5px; background:url(../../images/salon/bg_salon_top.png) no-repeat center 0;}
+.salonbbs .salonbbs_bottom{font-size:0;height:5px; background:url(../../images/salon/bg_salon_bottom.png) no-repeat center 0;}
+.salonbbs .salonbbs_conn{border-left:2px solid #cdcdcd; border-right:2px solid #cdcdcd;}
+.salonbbs .salonbbs_conn h4{line-height:41px; padding-left:38px; font-size:18px; color:#333;}
+.salonbbs .salonbbs_conn .salon_tab{height:28px; border-top:2px solid #cdcdcd;border-bottom:2px solid #cdcdcd; padding:22px 0 22px 10px;}
+.salonbbs .salonbbs_conn .salon_tab li{float:left; margin-left:32px;}
+.salonbbs .salonbbs_conn .salonlist{padding:36px 60px 0;clear:both;}
+.salonbbs .salonbbs_conn .salonlist li{width:790px; float:left; padding:0 0 26px; *padding:0 0 16px; line-height:18px; font-size:14px;}
+.salonbbs .salonbbs_conn .salonlist li img{float:left; width:46px; height:46px; padding:1px; border:1px solid #ccc;}
+.salonbbs .salonbbs_conn .salonlist li .salon_bbsbox{padding:0 0 0 10px;width:730px; float:left;}
+.salonbbs .salonbbs_conn .salonlist li .salon_bbsbox .salonlist_tit{color:#666;padding-bottom:2px;}
+.salonbbs .salonbbs_conn .salonlist li .salon_bbsbox .salonlist_tit em{color:#333;}
+.salonbbs .salonbbs_conn .salonlist li .salon_bbsbox .salonlist_txt em{color:#479bff;}
+.salonbbs .salonbbs_conn .pages{text-align:right; height:25px; padding:20px 40px 20px 0;}
+.salonbbs .salonbbs_conn .pages .pre{line-height:25px; padding-right:10px; float:right;}
+
+.salonbbs .salonbbs_conn .enter_comment{clear:both; width:796px; margin:0 auto; padding-top:20px;}
+.salonbbs .salonbbs_conn .enter_comment .textareabox textarea {border: 1px solid #CCCCCC;height: 102px;padding: 5px;resize: none;width: 780px; color:#333; font-size:14px;}
+.salonbbs .salonbbs_conn .enter_comment .enter_btn{text-align:right; padding:10px 4px 10px 0;}
+
+/*下期沙龙*/
+.salon .activity_ad{background:url(../../images/salon/activity_ad.jpg) no-repeat 0 0;height: 400px;}
+.salon .activity_ad .activity{padding:46px 180px 0 182px;}
+.salon .activity_ad .activity .activity_logo{width:190px; float:left;}
+.salon .activity_ad .activity .activity_logo p{text-align:center; padding-bottom:59px;}
+.salon .activity_ad .activity .activity_logo .attention{padding-bottom:10px;}
+.salon .activity_ad .activity .activity_logo .apply{color:#ff7e00;}
+.salon .activity_ad .activity .activity_txt h4{font-size:16px; padding: 8px 0 15px; width:420px; background:none; height:16px;}
+.salon .activity_ad .activity .activity_txt h4 p{position: relative; float:left;}
+.salon .activity_ad .activity .activity_txt h4 p .tips{position: absolute; right:-35px; top:-20px;}
+.salon .activity_ad .activity .activity_txt dt{line-height:25px; width:40px;}
+.salon .activity_ad .activity .activity_txt dd{line-height:25px; width:366px;}
+.salon .activity_ad .activity .activity_txt .introduce{padding-top:2px;line-height: 19px;}
+.salon .activity .activity_txt dl dd .add .map{top:-20px;}
+
+/*本期沙龙*/
+.salon .period{background:url(../../images/salon/bg_period.jpg) no-repeat center 16px;height: 375px; width:1060px;position: relative;margin-left: -40px;}
+.salon .period .pagename{padding-left:55px;}
+.salon .period .activity {padding-left:220px;}

@@ -1,0 +1,81 @@
+<?php 
+$setting['category']['childcomm']=array (
+  36 => 
+  array (
+    'classid' => '36',
+    'parentid' => '0',
+    'level' => '1',
+    'path' => NULL,
+    'fromid' => '6',
+    'commid' => 'guest',
+    'content' => '#话题3#111',
+    'time' => '2012-02-11 10:23:18',
+    'children' => '0',
+    'deep' => 0,
+  ),
+  34 => 
+  array (
+    'classid' => '34',
+    'parentid' => '0',
+    'level' => '1',
+    'path' => NULL,
+    'fromid' => '1',
+    'commid' => 'admin',
+    'content' => '#MySQL Relication技术深入#评论',
+    'time' => '2012-02-08 15:51:11',
+    'children' => '0',
+    'deep' => 0,
+  ),
+  35 => 
+  array (
+    'classid' => '35',
+    'parentid' => '0',
+    'level' => '1',
+    'path' => NULL,
+    'fromid' => '4',
+    'commid' => 'admin',
+    'content' => '#话题1#哈哈哈哈哈',
+    'time' => '2012-02-08 21:20:40',
+    'children' => '0',
+    'deep' => 0,
+  ),
+  32 => 
+  array (
+    'classid' => '32',
+    'parentid' => '0',
+    'level' => '1',
+    'path' => NULL,
+    'fromid' => '2',
+    'commid' => 'admin',
+    'content' => '#飞信DB高可用框架及将来规划#哈哈',
+    'time' => '2012-02-08 14:37:32',
+    'children' => '0',
+    'deep' => 0,
+  ),
+  33 => 
+  array (
+    'classid' => '33',
+    'parentid' => '0',
+    'level' => '1',
+    'path' => NULL,
+    'fromid' => '3',
+    'commid' => 'admin',
+    'content' => '#配合zookeeper的快速切换与数据一致#弹弹堂',
+    'time' => '2012-02-08 14:37:37',
+    'children' => '0',
+    'deep' => 0,
+  ),
+  31 => 
+  array (
+    'classid' => '31',
+    'parentid' => '0',
+    'level' => '1',
+    'path' => NULL,
+    'fromid' => '1',
+    'commid' => 'admin',
+    'content' => '#MySQL Relication技术深入#试试评论',
+    'time' => '2012-02-08 14:37:28',
+    'children' => '0',
+    'deep' => 0,
+  ),
+);

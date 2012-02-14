@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* 我的俱乐部 */
+.club{width:1012px; padding:10px 0 25px 20px;}
+.club .club_left{float:left; width:642px;padding:0 38px 38px 0;}
+.club .club_left .title {background: url(../../images/common/bg_title.png) no-repeat 0 0;height: 28px;line-height: 24px;padding: 5px 35px 20px 15px;position: relative;}
+.club .club_left .title .btn_arrow img {display: inline;margin: 3px 0 0 9px; float:left;}
+.title .btn_arrow {position: absolute;right: 36px;top: 5px; width: 58px;}
+.club .commentlist{padding:0 12px 20px;}
+.club .commentlist .userface{width:71px; float:left;}
+.club .commentlist .userface .user{width:67px; height:67px; border:2px solid #3399ff; margin-bottom: 10px}
+.club .commentlist .comment_txt{border:1px solid #ccc; width:522px;position: relative;  float:right;}
+.club .commentlist .comment_txt .arrow{position: absolute;background:url(../../images/common/bg_left_arrow.gif) no-repeat 0 0; width:19px; height:16px; left:-19px; top:12px;}
+.club .commentlist .comment_txt dl{padding:0 15px 30px;}
+.club .commentlist .comment_txt dt{width:490px; text-align:left; font-size:14px; padding:10px 0 0; color:#333;}
+.club .commentlist .comment_txt dd{position: relative; font-size:14px; line-height:20px; padding:10px 0 0;}
+.club .commentlist .comment_txt .more a{position: absolute; right:10px; bottom:10px; color:#479bff;font-size:14px;}
+.club .commentlist .prompt{padding:10px 0 12px; font-size:14px;}
+.club .club_left .noticelist{padding:0 0 30px; font-size:14px;}
+.club .club_left .noticelist li{padding:20px 12px 10px;background: url(../../images/common/bg_dot_line.gif) repeat-x 0 bottom;}
+.club .club_left .noticelist .btn{text-align:right;line-height:22px;}
+.club .club_left .club_article{width:582px; margin:0 auto; border:1px solid #00ccff; padding:10px 19px 2px; font-size:14px;}
+.club .club_left .club_article li{padding:14px 0; background: url(../../images/common/bg_dot_line_blue.gif) repeat-x 0 bottom; float:left; width:585px;}
+.club .club_left .club_article span{color:#999;}
+.club .club_left .club_article em{width:500px;float:left;}
+.club .club_left .club_article a{float:right; margin-left:5px;}
+.club .club_left .club_article a.yoll{color:#ff9c00;}
+.club .club_left .club_article em a{float:left; color:#666}
+.club .club_left .club_article li.lst{background:none;}
+
+.club .club_info{float:left;width:308px; padding:10px 0 0; font-size:14px;}
+.club .club_info .edit{text-align:right;}
+.club .club_info .edit a,
+.club .club_info .edit a:hover{color:#333;}
+.club .club_info .club_conn{background:#e0eeff; padding:15px 22px 10px 26px; height:1175px;}
+.club .club_info .info_user{padding:18px 0 0 19px; text-align:center;}
+.club .club_info .info_user img{width:134px; height:134px; border:5px solid #999;}
+.club .club_info .info_user p{padding:15px 0 20px; font-weight:bold; color:#333; font-size:16px;}
+.club .club_info .info_txt{line-height:20px; color:#666;}
+.club .club_info .mytab{font-size:16px; color:#006cff; padding:20px 0 10px;}
+.club .club_info .club_tab a{float:left; color:#ffa800; padding:0 10px; line-height:35px;}
+.club .club_info .club_tab a.f_16{font-size:18px;}
+
+
+/* 评论回复 */
+.clubtab{border-bottom:2px solid #60a8ff; height:30px; padding:20px 0 0 46px;}
+.clubtab li{float:left;}
+.clubtab li a,
+.clubtab li a:hover{float:left; padding:0 22px; line-height:30px; height:30px; background:#eaeaea; color:#666; margin:0 12px 0 0;text-decoration: none; font-size:14px;}
+.clubtab li a:hover{background:#479bff; color:#fff;text-decoration: none;}
+.club .club_left .bg_line{background: url(../../images/common/bg_dot_line.gif) repeat-x 0 bottom; padding-top:10px; padding-left:25px;}
+.club .bg_line .userface {margin-left:10px; *margin-left:6px;}
+.club .bg_line .comment_txt{width: 500px; float:right; display:inline; margin-left:20px;}
+.club .bg_line .comment_txt dt{_width:438px;}
+.club .log_tit {background: url(../../images/common/bg_title_log.gif) no-repeat 0 0;padding: 5px 25px 15px 15px;height: 28px;line-height: 22px;*line-height: 25px;position: relative;}
+.club .title .more {position: absolute;top: 5px;margin: 2px 0 0;right: 24px; width: 59px;}
+.club .title .more a{margin-right:5px; display:inline;}
+.club .club_info .club_infolist{padding:0 0 15px;}
+.club .club_info .club_infolist li{height:50px; line-height:50px; padding-left:18px; width:275px; margin:0 4px 2px;background:#eaeaea}
+.club .club_info .club_infolist li em img{margin-top:0;margin-top:-6px\0;*margin-top:-6px;_margin-top:-6px;}
+.club .club_info .club_info_txt{position: relative;float: left;}
+.club .club_info .club_info_txt .tips{position: absolute; right:-15px; top:8px;}
+.club .club_info .club_infolist02{}
+.club .club_info .club_infolist02 li{height:50px; line-height:50px; padding-left:30px; width:265px; margin:0 4px 2px;background:#eaeaea url(../../images/common/ico_dot.gif) no-repeat 21px 22px;}
+.club .club_info .club_infolist02 li a{color:#666;}
+
+.club .pages {float: left;font-size: 14px; padding: 25px 0 35px 0;}
+.pages_ie6{_position: relative;}
+.pages_ie6 ul{_position: absolute; _top:23px;}
+.club .pages ul{float:left;}
+.club .pages li a{height:30px; width:30px; line-height:30px;}
+.club .pre {line-height: 30px;padding-right: 10px;width: 60px; float:left;}
+.club .manage .pages ul{float:right;}
+
+/* 站内信回复 */
+.club .commentlist .notice{font-size:18px; color:#333; text-align:text; padding:5px 10px 10px 10px;}
+.club .commentlist .notice span{float:right; width:66px; text-align:right; font-size:12px; line-height:20px; color:#999; *margin-top:-34px;}
+.club .club_left .comment_reply{padding:20px 0 50px 12px;position: relative;}
+.club .club_left .comment_reply .userface{float:right;}
+.club .club_left .comment_reply .comment_txt{margin-right: 15px; width:416px; border:1px solid #479bff;}
+.club .club_left .comment_reply .comment_txt .arrow{background:url(../../images/common/bg_right_arrow.gif) no-repeat 0 0; left:415px}
+.club .club_left .comment_reply .comment_txt dl{padding-bottom:50px;}
+.club .club_left .comment_reply .btn_define{position: absolute; bottom:10px; right:98px;}
+.club .club_left .comment_reply .btn_define a{margin-left:10px; display:inline;}
+.club .club_left .letter{text-align:right; color:#99cc00; font-size:14px; width:617px; padding:10px 0 0;}
+
+/*消息中心*/
+.club .club_left .nom{padding:0;}
+
+/*文章管理*/
+.club_w{padding-left:0}
+.club .newlog{text-align:right; padding:15px 0;}
+.club .manage_tit{background:#479bff; height:42px;}
+.club .manage_tit .tit{float:left; padding:10px 10px 0 20px;font-size:16px; color:#fff;}
+.club .manage_tit .options{float:left; margin:10px 0 0;}
+.club .manage_tit .switching{float:left; padding:10px 0 0 10px;}
+.club .manage .club_article{ margin:0 auto; padding:10px 0 2px 30px; font-size:14px;}
+.club .manage .club_article li{padding:16px 0 10px; border-bottom:1px dotted #ccc; float:left; width:950px;}
+.club .manage .club_article span{color:#999;}
+.club .manage .club_article em{width:770px;float:left; overflow:hidden;line-height: 22px;}
+.club .manage .club_article .audit{display:block; width:70px; float:left; text-align:center; line-height:24px; background:#ff8400; color:#fff; margin-right:10px;_margin-right:5px;}
+.club .manage .club_article a{float:right; margin-left:10px; _margin-top:-15px;}
+.club .manage .club_article a.yoll{color:#ff9c00;}
+.club .manage .club_article li.lst{background:none;}
+.club .manage .pages{float:right; padding-right:8px;}
+.club .manage .pages .pre{float:right; width:60px}
+
+.club .summary{float:left; width:100%; padding:10px 0; line-height:18px; color:#666;text-indent: 2em;}
+
+/*我的资料*/
+.personal_info dt {float: left;height: 40px;line-height: 40px;padding-right: 10px;text-align: right;width: 255px;font-size:16px;font-weight:bold;color:#333;}
+.personal_info .red{color:#e71f19;}
+.personal_info dd {float: left;line-height: 40px;overflow: visible;width: 710px;color:#666;font-size:14px;}
+.personal_info .bdmain input{height:24px; margin-top:7px; width:220px;}
+.personal_info .msg {display: inline;float: left;font-size: 12px; height: 40px;line-height: 41px;color:#ff9600;}
+.personal_info .bdmain {float: left; margin-right: 10px;}
+.personal_info .tit{font-size:16px;float:left;font-weight:bold;color:#333;*padding-top:5px; _padding-top:2px;}
+.personal_info .tit input{_margin-top:10px;}
+.personal_info dd.placebox{*padding-top:7px; height:40px;}
+
+.ipt_text{border:1px solid #ccc; width:166px; height:24px; margin-top:7px;}
+.personal_info .bdmain .ipt_text input{float:left; border:1px solid #fff; width:126px; margin-top:0; height:22px; padding-left:4px; line-height:22px;}
+.ipt_text img{float:right; width:26px;}
+.personal_info .dl_tab dt{padding-top:46px;}
+.personal_info .dl_tab .bdmain{padding-top:18px;}
+.personal_info .dl_tab .msg{padding-top:42px;}
+.personal_info .dl_tab dd{padding:10px 0 20px}
+.personal_info .dl_txtbox dt{padding-top:35px;}
+.personal_info .dl_txtbox .bdmain{width:478px;}
+.personal_info .interest{float:left; border:1px solid #ff9600; width:305px; *width:317px; height:93px; padding:6px 0 15px 12px; margin-left:20px;display:inline; }
+.personal_info .interest p{ line-height:24px; padding:4px 15px 10px 0;}
+.personal_info .interest p img{float:right; *margin-top:-36px; *margin-right:5px;}
+.personal_info .interest ul li{float:left; background:#ffecd0; color:#ff9600; padding:0 6px 2px 2px;line-height:22px ;margin:0 10px 10px 0;display:inline; }
+.personal_info .interest ul li a,
+.personal_info .interest ul li a:hover{color:#ff9600;display:block;text-decoration:none;}
+.personal_info .tablist{padding:7px 0 0;}
+.personal_info .tablist li{float:left; border:1px solid #ff9600; color:#ff9600; padding:0 2px 2px 6px;*padding:4px 2px 2px 6px;line-height:22px ;margin-right:20px; display:inline;}
+
+.bdmain .bdmain_tit{text-align:right;}
+.bdmain .bdmain_btn{text-align:right; padding:0 0 40px;}
+.bdmain .bdmain_txt{position: relative; }
+.bdmain .bdmain_txt .arrow{width:22px; height:20px; position: absolute;background:url(../../images/common/bg_arrow_y.jpg) no-repeat 0 0; left:0px; top:20px; z-index:10;}
+.bdmain .bdmain_txt .txtbox{border:1px solid #ff9600;width:455px; float:right; margin-bottom:20px;}
+.bdmain .bdmain_txt .txtbox textarea{border:1px solid #fff; width:433px; padding:10px;}
+.personal_user{width:540px; margin:25px 0 0 162px; height:145px;}
+.personal_user .user_face{float:left;}
+.personal_user .user_face .face img{width:79px; height:79px; border:3px solid #999;margin-bottom:10px;}
+.personal_user .user_txe{padding-left:100px;}
+.personal_user .user_txe h2{font-size:20px; color:#333; padding:4px 0 10px;}
+.personal_user .user_txe p{color:#ff9600; padding:10px 0; font-size:14px; line-height:22px;}

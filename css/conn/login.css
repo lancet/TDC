@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* 个人登录-退出页面 */
+.login_quit{padding:70px 50px;}
+.login_quit .account{ float:left; height:303px;}
+.login_quit .account h3{font-size:24px; color:#333; margin-bottom:35px;}
+.login_quit .account .app_list{width:290px;height:170px;}
+.login_quit .account .app_list li{float:left; height:34px; margin-bottom:15px; line-height:34px; padding-left:50px; width:94px; background: url(../../images/common/ico_q.jpg) no-repeat 0 0;}
+.login_quit .account .app_list li.weibo{background-position:0 -4px;}
+.login_quit .account .app_list li.msn{background-position:-144px -4px;}
+.login_quit .account .app_list li.twitter{background-position:0 -50px;}
+.login_quit .account .app_list li.taobao{background-position:-144px -50px;}
+.login_quit .account .app_list li.qq{background-position:0 -94px;}
+.login_quit .account .app_list li.douban{background-position:-144px -94px;}
+.login_quit .account .app_list li a,
+.login_quit .account .app_list li a:hover{color:#333;}
+.login_quit .account .app_registration{clear:both; font-size:14px;}
+.login_quit .account .app_registration a{font-size:14px; color:#666;}
+.login_quit .pic_list{ float:right; width:456px;}
+.login_quit .pic_list li{position: relative;float:left; width:150px; height:150px; margin:0 0 2px 2px; display:inline;}
+.login_quit .pic_list li img{z-index:10}
+.login_quit .pic_list li .pic_box{position: absolute; border:3px solid #999; left:0; top:0; width:297px; z-index:100}
+.login_quit .pic_list li .pic_box .pic_txt{width:143px; height:144px; float:right;background:#999; padding-left:10px;}
+.login_quit .pic_list li .pic_box p{color:#fff; line-height:22px; font-size:14px;}
+.login_quit .pic_list li .pic_box .pic_txt .tit{width:143px; height:65px; padding:16px 0 0 0; font-size:18px; line-height:24px;}
